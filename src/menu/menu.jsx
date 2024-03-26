@@ -29,7 +29,7 @@ const SwipeMenu = () => {
             <div className="bar3"></div>
           </div>
         </button>
-        <p>Liebe Beryll, ich bin froh das es Dich gibt!</p>
+        <p>Liebe Beryll, ich bin froh dass es Dich gibt!</p>
       </div>
       {menuOpen && <div className="overlay" onClick={closeMenu}></div>}
     </div>
