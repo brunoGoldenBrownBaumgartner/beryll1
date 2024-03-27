@@ -1,8 +1,10 @@
 /* SwipeMenu.css */
 
 .swipe-menu-container {
+    position: absolute;
     display: flex;
     height: 100%;
+    width: 100%;
   }
   
   .menu {
@@ -35,6 +37,7 @@
 
   li{
     margin-top: 40px;
+    z-index: 12;
   }
 
   a{
@@ -109,5 +112,7 @@
     z-index: 12;
     font-family: Arial, Helvetica, sans-serif;
     bottom: 5px;
-    color: black;
+    text-align: center;
+    color: #ebab34;
+    margin: 30px;
   }

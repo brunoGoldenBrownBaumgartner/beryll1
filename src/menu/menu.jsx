@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom"; // Korrekter Import von Link
 import './Menu.css';
 
 const SwipeMenu = () => {
@@ -16,9 +17,9 @@ const SwipeMenu = () => {
     <div className="swipe-menu-container">
       <div className={`menu ${menuOpen ? 'open' : ''}`}>
         <ul>
-        <li><a href="#">💎</a></li>
-          <li><a href="https://codepen.io/BrunoBaumgartner/pen/JjzQdmB">ABOUT</a></li>
-          <li><a href="tel:0794630666">CONTACT</a></li>
+          <li><Link to="/" onClick={closeMenu}>💎</Link></li>
+          <li><Link to="/moon" onClick={closeMenu}>🌕</Link></li>
+          <li><a href="tel:0794630666n" onClick={closeMenu}>CONTACT</a></li>
         </ul>
       </div>
       <div className="content">
