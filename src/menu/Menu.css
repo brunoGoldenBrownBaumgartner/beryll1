@@ -9,7 +9,7 @@
   
   .menu {
     width: 200px; /* Anpassen der Breite des Menüs nach Bedarf */
-    height: 100%;
+    height: 1100em;
     background-color: #33333379;
     transition: transform 0.3s ease;
     transform: translateX(-200px); /* Startposition außerhalb des Bildschirms */
